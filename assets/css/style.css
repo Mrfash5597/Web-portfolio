@@ -16,7 +16,7 @@
 .sec-jumbotron{
     height: 100vh;
 }
-.jumbotron{
+.cos-jumbotron{
     background-image: url('../images/jumbotron.png');
     background-size: cover;
     height: 100vh;
@@ -115,6 +115,12 @@
     height: 3400px;
 }
 
+.bg-page-portfolio{
+    background-image: url('../images/bg-portfolio.png');
+    background-size: cover;
+    height: 3400px;
+}
+
 .box-portfolio{
     background-color: white;
     height: 490px;
@@ -187,6 +193,11 @@
 
     .bg-portfolio{
         height: 1650px;
+        width: 100%;
+    }
+
+    .bg-page-portfolio{
+        height: 1850px;
         width: 100%;
     }
 

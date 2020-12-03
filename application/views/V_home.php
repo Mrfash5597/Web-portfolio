@@ -21,7 +21,7 @@
   <body>
     <!-- JUMBOTRON -->
     <section class="sec-jumbotron" id="jumbotron">
-    <div class="jumbotron jumbotron-fluid">
+    <div class="cos-jumbotron jumbotron jumbotron-fluid">
         <!-- NAVBAR -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
@@ -52,7 +52,7 @@
                     <a href="<?php echo base_url().'index.php/C_home/lakukan_download' ?>">
                         <button class="btn-custom1 btn-lg px-3 py-2 mr-3" type="button"><i class="fas fa-download mr-3 py-2"></i>Download CV</button>
                     </a>
-                    <a href="">
+                    <a href="https://drive.google.com/file/d/1vBDXx9Ls2q3I26oqUHSaPYthTsY9D-38/view?usp=sharing" target="_blank">
                         <button class="btn-custom2 btn-lg px-3 py-2 ml-3" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
                     </a>
                 </div>
@@ -101,7 +101,7 @@
                         <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-uiux.png" alt="icon-ui">
                         <h3 class="my-4 font-weight-bold">UI/UX Designer</h2>
                         <p class="typo-service my-3">User Experience (UX) is the process of designing a product through a user approach. As previously mentioned, the UI is part of the UX which is the visual appearance of a system design. </p>
-                        <a href="https://www.niagahoster.co.id/blog/perbedaan-ui-dan-ux/">
+                        <a href="https://www.niagahoster.co.id/blog/perbedaan-ui-dan-ux/" target="_blank">
                             <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
                         </a>
                     </div>
@@ -110,7 +110,7 @@
                         <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-web.png" alt="icon-web">
                         <h3 class="my-4 font-weight-bold">Web Designer</h2>
                         <p class="typo-service my-3">Web design is what creates the overall look and feel of a website, when used by users. This includes the process of planning and creating website elements, from the layout structure, images, colors, to graphics. </p>
-                        <a href="https://www.garuda.website/blog/apa-itu-web-design/">
+                        <a href="https://www.garuda.website/blog/apa-itu-web-design/" target="_blank">
                             <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
                         </a>
                     </div>                  
@@ -121,7 +121,7 @@
                         <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-2d.png" alt="icon-2d">
                         <h3 class="my-4 font-weight-bold">Animation 2D</h2>
                         <p class="typo-service my-3">Animation is a process used to digitally produce animated images. The term computer-generated imaging includes both static scenes and dynamic images. </p>
-                        <a href="https://tirtamedia.co.id/2020/03/12/mari-mengenal-animasi-2d/">
+                        <a href="https://tirtamedia.co.id/2020/03/12/mari-mengenal-animasi-2d/" target="_blank">
                             <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
                         </a>
                     </div>
@@ -130,8 +130,8 @@
                         <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-app.png" alt="icon-app">
                         <h3 class="my-4 font-weight-bold">App Designer</h2>
                         <p class="typo-service my-3">App Designer is an interactive development environment for designing full application layouts and a large set of interactive User Interface components. </p>
-                        <a href="https://dtc.co.id/blog/pentingnya-desain-ui-ux-dalam-pengembangan-aplikasi-seluler">
-                            <button class="btn-custom1 btn-sm" href="#" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                        <a href="https://dtc.co.id/blog/pentingnya-desain-ui-ux-dalam-pengembangan-aplikasi-seluler" target="_blank">
+                            <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
                         </a>
                     </div>
                     
@@ -139,8 +139,8 @@
                         <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-motion.png" alt="icon-motion">
                         <h3 class="my-4 font-weight-bold">Motion Graphic</h2>
                         <p class="typo-service my-3">Motion graphics are a type of animation that combines text, graphics, color and motion to create visually appealing video content with 2D animation. </p>
-                        <a href="https://www.ekrut.com/media/motion-graphic#:~:text=Motion%20graphic%20adalah%20jenis%20animasi,video%20yang%20menarik%20secara%20visual.">
-                            <button class="btn-custom1 btn-sm" href="#" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                        <a href="https://www.ekrut.com/media/motion-graphic#:~:text=Motion%20graphic%20adalah%20jenis%20animasi,video%20yang%20menarik%20secara%20visual." target="_blank">
+                            <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
                         </a>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                         <h4 class="text-black font-weight-bold">Animation 2D</h4>
                         <h4 class="text-black font-weight-bold">Industrial Revolution Waves</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/industri.jpg" alt="industri">
-                        <a href="https://www.youtube.com/watch?v=h3Z0WRlHzjw&t=6s&ab_channel=MuhamadFaisal">
+                        <a href="https://www.youtube.com/watch?v=h3Z0WRlHzjw&t=6s&ab_channel=MuhamadFaisal" target="_blank">
                             <button class="btn-custom2 btn-sm mt-3 px-3 py-2" role="button">Watch Now</button>
                         </a>
                     </figure>
@@ -177,7 +177,7 @@
                         <h4 class="text-black font-weight-bold">Motion Graphic</h4>
                         <h4 class="text-black font-weight-bold">Muslim Sejati Pemersatu</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/muslim.jpg" alt="muslim">
-                        <a href="https://www.youtube.com/watch?v=wiHcvl0nG2k&ab_channel=MuhamadFaisal">
+                        <a href="https://www.youtube.com/watch?v=wiHcvl0nG2k&ab_channel=MuhamadFaisal" target="_blank">
                             <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
                         </a>
                     </figure>
@@ -190,7 +190,7 @@
                         <h4 class="text-black font-weight-bold">Ui/Ux Design</h4>
                         <h4 class="text-black font-weight-bold">Web Barita</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/web-barita.png" alt="web-barita">
-                        <a href="https://www.youtube.com/watch?v=rt5IzQ6Oea8&ab_channel=MuhamadFaisal">
+                        <a href="https://www.youtube.com/watch?v=rt5IzQ6Oea8&ab_channel=MuhamadFaisal" target="_blank">
                             <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
                         </a>
                     </figure>
@@ -201,7 +201,7 @@
                         <h4 class="text-black font-weight-bold">Ui/Ux Design</h4>
                         <h4 class="text-black font-weight-bold">App Barita</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/app-barita.png" alt="app-barita">
-                        <a href="https://www.youtube.com/watch?v=yEhcAyNrkvI&t=18s&ab_channel=MuhamadFaisal">
+                        <a href="https://www.youtube.com/watch?v=yEhcAyNrkvI&t=18s&ab_channel=MuhamadFaisal" target="_blank">
                             <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
                         </a>
                     </figure>
@@ -210,7 +210,9 @@
 
             <div class="row">
                 <div class="col text-center">
-                    <button class="btn-custom1 btn-lg mt-3" href="#" type="button">Show All</button>
+                    <a href="<?php echo base_url() .'index.php/C_home/V_portfolio';?>">
+                        <button class="btn-custom1 btn-lg mt-3" type="button">Show All</button>
+                    </a>
                 </div>
             </div>
 

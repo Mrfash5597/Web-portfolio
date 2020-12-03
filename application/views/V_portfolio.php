@@ -14,41 +14,26 @@
     <!-- MY CSS -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
     
-    <title>Portfolio</title>
+    
+
+    <title>My Portfolio</title>
   </head>
   <body>
-        <!-- NAVBAR -->
-        <section class="navbar" id="navbar">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container">
-                    <img class="logo ml-5" src="<?php echo base_url();?>assets/images/logo_web.png" alt="logo">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav mx-auto">
-                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="#about">About</a>
-                        <a class="nav-link" href="#service">Service</a>
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                        <a class="nav-link" href="#contact">Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </section>
-        <!-- AKHIR NAVBAR -->
-
-    <!-- CONTENT -->
-
-    <!-- PORTFOLIO -->
-    <section class="section-tampil portfolio" id="portfolio">
+   <!-- PORTFOLIO -->
+   <section class="section-tampil portfolio" id="portfolio">
     <div class="bg-portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>Portfolio</strong></font></p>
-                    <h1 class="text-center text-white display-4 pb-4">Creative Works </h1>
+                    <h1 class="text-center text-white display-4 my-5">My Portfolio</h1>
+                </div>
+            </div>
+
+            <div class="row ml-1">
+                <div class="col-sm-12">
+                    <a href="<?php echo base_url(). 'index.php/C_home';?>">
+                        <button class="btn-custom1 btn-sm font-weight-bold ml-5 px-2" type="button"><i class="fas fa-home mr-2"></i>Back</button>
+                    </a>
                 </div>
             </div>
         
@@ -100,148 +85,10 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col text-center">
-                    <a href="<?php echo base_url() .'index.php/C_home/V_portfolio'; ?>">
-                        <button class="btn-custom1 btn-lg mt-3" type="button">Show All</button>
-                    </a>
-                </div>
-            </div>
-
-            <p class="text-center text-white my-4 mx-5 px-5">All the creative work listed is of course made using personal abilities and professional software, the following are personal abilities and the software that I use.</p>
-
-            <div class="row justify-content-center">
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Adobe XD</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Adobe Illustrator</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Adobe Photoshop</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Adobe Premier Pro</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Adobe After Effect</button>
-                </div>                
-            </div>
-
-            <div class="row justify-content-center mt-3">
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">MarvelApp</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Audacity</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Microsoft Office</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Mysql</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Front-end</button>
-                </div>                
-            </div>
-
-            <div class="row justify-content-center mt-3">
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">CodeIgniter</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">HTML</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">CSS</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Bootstrap</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">JavaScript</button>
-                </div>                
-            </div>
-
-            <div class="row justify-content-center mt-3">
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Figma</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Wordpress</button>
-                </div>
-
-                <div class="col-sm-2 text-center">
-                    <button class="btn-custom3 btn-sm" href="#" type="button">Stream Labs OBS</button>
-                </div>                
-            </div>
-
         </div>
     </div>
     </section>
     <!-- AKHIR PORTFOLIO -->
-    
-    <!-- CONTACT -->
-    <section class="section-tampil contact" id="contact">
-        <div class="bg-contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>Contact</strong></font></p>
-                        <h1 class="text-center text-white display-4 pb-4">Call Me Now </h1>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center mt-2">
-                    <div class="col-sm-3 text-center my-1">
-                        <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-phone.png" alt="icon-phone">
-                        <h6 class="text-white font-weight-bold mt-3">Phone Number</h6>
-                        <h6 class="text-white font-weight-bold mt-2">+62-822-1648-4272</h6>
-                    </div>
-                    
-                    <div class="col-sm-3 text-center my-1">
-                        <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-email.png" alt="icon-email">
-                        <h6 class="text-white font-weight-bold mt-3">E-mail</h6>
-                        <h6 class="text-white font-weight-bold mt-2">Mfaisal5597@gmail.com</h6>
-                    </div>
-
-                    <div class="col-sm-3 text-center my-1">
-                        <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-location.png" alt="icon-location">
-                        <h6 class="text-white font-weight-bold mt-3">Get Me Here</h6>
-                        <h6 class="text-white font-weight-bold mt-2">Cisarua, Bandung</h6>
-                    </div>
-                    
-                </div>    
-            </div>
-        </div>
-    </section>
-    <!-- AKHIR CONTACT -->
-
-    <!-- FOOTER -->
-    <section class="section-tampil footer" id="footer">
-        <div class="bg-footer">
-            <div class="container">
-
-            </div>
-        </div>
-    </section>
-    <!-- AKHIR FOOTER -->
-
-    <!-- AKHIR CONTENT -->
 
     <!-- Optional JavaScript; choose one of the two! -->
     

@@ -11,6 +11,11 @@ class C_home extends CI_Controller {
 	{
 		$this->load->view('V_home');
 	}
+	
+	public function V_portfolio()
+	{
+		$this->load->view('V_portfolio');
+	} 
 
 	public function lakukan_download(){				
 		force_download('assets/file/My_CV.pdf',NULL);

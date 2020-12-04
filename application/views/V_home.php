@@ -31,7 +31,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav mx-auto">
-                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-link" href="#about">About</a>
                         <a class="nav-link" href="#service">Service</a>
                         <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -61,7 +61,7 @@
     </div>
     </section>
     <!-- AKHIR JUMBOTRON -->
-
+    
     <!-- CONTENT -->
     <!-- ABOUT -->
     <section class="section-tampil about" id="about">
@@ -167,7 +167,7 @@
                         <h4 class="text-black font-weight-bold">Industrial Revolution Waves</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/industri.jpg" alt="industri">
                         <a href="https://www.youtube.com/watch?v=h3Z0WRlHzjw&t=6s&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" role="button">Watch Now</button>
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -178,7 +178,7 @@
                         <h4 class="text-black font-weight-bold">Muslim Sejati Pemersatu</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/muslim.jpg" alt="muslim">
                         <a href="https://www.youtube.com/watch?v=wiHcvl0nG2k&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -187,22 +187,22 @@
             <div class="row justify-content-center">
                 <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
                     <figure class="figure">    
-                        <h4 class="text-black font-weight-bold">Ui/Ux Design</h4>
+                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
                         <h4 class="text-black font-weight-bold">Web Barita</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/web-barita.png" alt="web-barita">
-                        <a href="https://www.youtube.com/watch?v=rt5IzQ6Oea8&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
+                        <a href="https://drive.google.com/drive/folders/1UTFS1uuJlzVbX0pofFn5B0EcS89sCd1v?usp=sharing" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
                         </a>
                     </figure>
                 </div>
 
                 <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
                     <figure class="figure">    
-                        <h4 class="text-black font-weight-bold">Ui/Ux Design</h4>
+                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
                         <h4 class="text-black font-weight-bold">App Barita</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/app-barita.png" alt="app-barita">
-                        <a href="https://www.youtube.com/watch?v=yEhcAyNrkvI&t=18s&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
+                        <a href="https://drive.google.com/drive/folders/1mP2VGuhqtrqzqb4C0ib-zXUGdh8Mb6r8?usp=sharing" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -284,7 +284,7 @@
                 </div>                
             </div>
 
-            <div class="row justify-content-center mt-3">
+            <div class="row justify-content-center mt-3 mb-3">
                 <div class="col-sm-2 text-center">
                     <button class="btn-custom3 btn-sm" href="#" type="button">Figma</button>
                 </div>
@@ -295,7 +295,11 @@
 
                 <div class="col-sm-2 text-center">
                     <button class="btn-custom3 btn-sm" href="#" type="button">Stream Labs OBS</button>
-                </div>                
+                </div>
+                
+                <div class="col-sm-2 text-center">
+                    <button class="btn-custom3 btn-sm" href="#" type="button">Github</button>
+                </div>
             </div>
 
         </div>
@@ -348,6 +352,8 @@
         </div>
     </section>
     <!-- AKHIR FOOTER -->
+
+    <a class="btn-gotop" href="#jumbotron"><i class="fas fa-arrow-up"></i></a>
 
     <!-- AKHIR CONTENT -->
 

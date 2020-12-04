@@ -21,7 +21,7 @@
   <body>
    <!-- PORTFOLIO -->
    <section class="section-tampil portfolio" id="portfolio">
-    <div class="bg-portfolio">
+    <div class="bg-page-portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -43,8 +43,8 @@
                         <h4 class="text-black font-weight-bold">Animation 2D</h4>
                         <h4 class="text-black font-weight-bold">Industrial Revolution Waves</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/industri.jpg" alt="industri">
-                        <a href="https://www.youtube.com/watch?v=h3Z0WRlHzjw&t=6s&ab_channel=MuhamadFaisal">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" role="button">Watch Now</button>
+                        <a href="https://www.youtube.com/watch?v=h3Z0WRlHzjw&t=6s&ab_channel=MuhamadFaisal" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -54,8 +54,8 @@
                         <h4 class="text-black font-weight-bold">Motion Graphic</h4>
                         <h4 class="text-black font-weight-bold">Muslim Sejati Pemersatu</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/muslim.jpg" alt="muslim">
-                        <a href="https://www.youtube.com/watch?v=wiHcvl0nG2k&ab_channel=MuhamadFaisal">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
+                        <a href="https://www.youtube.com/watch?v=wiHcvl0nG2k&ab_channel=MuhamadFaisal" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -64,22 +64,70 @@
             <div class="row justify-content-center">
                 <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
                     <figure class="figure">    
-                        <h4 class="text-black font-weight-bold">Ui/Ux Design</h4>
+                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
                         <h4 class="text-black font-weight-bold">Web Barita</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/web-barita.png" alt="web-barita">
-                        <a href="https://www.youtube.com/watch?v=rt5IzQ6Oea8&ab_channel=MuhamadFaisal">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
+                        <a href="https://drive.google.com/drive/folders/1UTFS1uuJlzVbX0pofFn5B0EcS89sCd1v?usp=sharing" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
                         </a>
                     </figure>
                 </div>
 
                 <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
                     <figure class="figure">    
-                        <h4 class="text-black font-weight-bold">Ui/Ux Design</h4>
+                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
                         <h4 class="text-black font-weight-bold">App Barita</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/app-barita.png" alt="app-barita">
-                        <a href="https://www.youtube.com/watch?v=yEhcAyNrkvI&t=18s&ab_channel=MuhamadFaisal">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">Watch Now</button>
+                        <a href="https://drive.google.com/drive/folders/1mP2VGuhqtrqzqb4C0ib-zXUGdh8Mb6r8?usp=sharing" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
+                    <figure class="figure">    
+                        <h4 class="text-black font-weight-bold">Motion Graphic</h4>
+                        <h4 class="text-black font-weight-bold">Promotion App Talento</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/animation-talento.jpg" alt="app-talento">
+                        <a href="https://www.youtube.com/watch?v=yEhcAyNrkvI&t=20s&ab_channel=MuhamadFaisal" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                        </a>
+                    </figure>
+                </div>
+
+                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
+                    <figure class="figure">    
+                        <h4 class="text-black font-weight-bold">Motion Graphic</h4>
+                        <h4 class="text-black font-weight-bold">Promotion App Barita</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/animation-barita.jpg" alt="app-barita">
+                        <a href="https://www.youtube.com/watch?v=rt5IzQ6Oea8&t=13s&ab_channel=MuhamadFaisal" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
+                    <figure class="figure">    
+                        <h4 class="text-black font-weight-bold">Motion Graphic</h4>
+                        <h4 class="text-black font-weight-bold">Public Service Advertisement Hoax</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/iklan-layanan-masyarakat.jpg" alt="hoax">
+                        <a href="https://www.youtube.com/watch?v=bH-Spw2zT_A&ab_channel=MuhamadFaisal" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                        </a>
+                    </figure>
+                </div>
+
+                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
+                    <figure class="figure">    
+                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
+                        <h4 class="text-black font-weight-bold">Project Web Portfolio</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/thumnail-portfolio.jpg" alt="web-portpolio">
+                        <a href="https://drive.google.com/drive/folders/1i4KXSrHDb1wfuUQpSoog4YrBlyoih1fU?usp=sharing" target="_blank">
+                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -89,6 +137,8 @@
     </div>
     </section>
     <!-- AKHIR PORTFOLIO -->
+
+    <a class="btn-gotop" href="#portfolio"><i class="fas fa-arrow-up"></i></a>
 
     <!-- Optional JavaScript; choose one of the two! -->
     

@@ -1,7 +1,13 @@
-/* NAVBAR */
-.navbar{
-    margin-top: -50px;
+html{
+    scroll-behavior: smooth;
 }
+
+/* NAVBAR */
+
+.navbar{
+    margin-top: -30px;
+}
+
 .navbar-nav{
     color: white;
     font-weight: 500;
@@ -25,7 +31,7 @@
 .content-jumbotron{
     text-align: center;
     color: white;
-    margin: 60px;
+    margin: 20px;
 }
 
 .display-4{
@@ -36,6 +42,21 @@
 
 .lead{
     font-size: 18px;
+}
+
+.btn-gotop{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.274);
+    bottom: 20px;
+    right: 40px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 22px;
 }
 
 .btn-custom1{
@@ -116,9 +137,8 @@
 }
 
 .bg-page-portfolio{
-    background-image: url('../images/bg-portfolio.png');
+    background-image: url('../images/bg-page-portfolio.png');
     background-size: cover;
-    height: 3400px;
 }
 
 .box-portfolio{
@@ -176,9 +196,42 @@
         margin-right: 40px;
     }
 
-    .jumbotron{
+    .navbar{
+        margin-top: -50px;
+    }
+
+    .cos-jumbotron{
         height: 100vh;
         width: 100%;
+    }
+
+    .content-jumbotron{
+        margin: 50px;
+    }
+
+    .btn-gotop{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.274);
+        bottom: 40px;
+        right: 40px;
+    
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        color: black;
+        font-size: 22px;
+    }
+
+    .box-portfolio{
+        background-color: white;
+        height: 490px;
+        width: 250px;
+        box-shadow: 5px 5px 5px #00000070;
+        border-right: 10px solid #FF6666;
+        border-bottom: 10px solid #FF6666;
+        margin-left: 20px;
     }
 
     .bg-about{
@@ -197,7 +250,7 @@
     }
 
     .bg-page-portfolio{
-        height: 1850px;
+        height: 2400px;
         width: 100%;
     }
 

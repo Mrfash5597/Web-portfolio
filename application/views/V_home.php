@@ -6,157 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-   
+
     <!-- MY CSS -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
-    
-    
 
-    <title>My Portfolio</title>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <title>My Website</title>
   </head>
   <body>
-    <!-- JUMBOTRON -->
-    <section class="sec-jumbotron" id="jumbotron">
-    <div class="cos-jumbotron jumbotron jumbotron-fluid">
-        <!-- NAVBAR -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container">
-                    <img class="logo ml-5" src="<?php echo base_url();?>assets/images/logo_web.png" alt="logo">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav mx-auto">
-                        <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="#about">About</a>
-                        <a class="nav-link" href="#service">Service</a>
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                        <a class="nav-link" href="#contact">Contact</a>
-                        </div>
-                    </div>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+            <img class="logo" src="<?php echo base_url();?>assets/images/logo_web.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#jumbotron">Home</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        <!-- AKHIR NAVBAR -->
-        <div class="container">
-            <div class="content-jumbotron">
-                <p><font color = "#FF6666" size="5px" > <strong>Hello</strong></font></p>
-                <h1 class="display-4">I Am Muhamad Faisal</h1>
-                <h1 class="display-4">Animator 2D & UI/UX Designer</h1>
-                <h1 class="display-4">Web Development</h1>
-                <p class="lead">If you are wrong then correct it, If you fail then try again, But if you give up all will be over.</p>
-                <div class="tombol py-3">
-                    <a href="<?php echo base_url().'index.php/C_home/lakukan_download' ?>">
-                        <button class="btn-custom1 btn-lg px-3 py-2 mr-3" type="button"><i class="fas fa-download mr-3 py-2"></i>Download CV</button>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1vBDXx9Ls2q3I26oqUHSaPYthTsY9D-38/view?usp=sharing" target="_blank">
-                        <button class="btn-custom2 btn-lg px-3 py-2 ml-3" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
-                    </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- END NAVBAR -->
+
+    <!-- JUMBOTRON -->
+    <section class="jumbotron d-flex text-center text-white" id="jumbotron">
+        <div class="container d-flex justify-content-center">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-sm-12">
+                    <p><font color = "#FF6666" size="5px" > <strong>Hello</strong></font></p>
+                    <h1 class="font-weight-bold">I Am Muhamad Faisal</h1>
+                    <h1 class="font-weight-bold">Animator 2D & UI/UX Designer</h1>
+                    <h1 class="font-weight-bold">Web Development</h1>
+                    <p>If you are wrong then correct it, If you fail then try again, But if you give up all will be over.</p>
+                        <a href="<?php echo base_url().'index.php/C_home/lakukan_download' ?>">
+                             <button class="btn-custom1 btn-lg" type="button"><i class="fas fa-download mr-3 py-2"></i>Download CV</button>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1vBDXx9Ls2q3I26oqUHSaPYthTsY9D-38/view?usp=sharing" target="_blank">
+                            <button class="btn-custom2 btn-lg" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                        </a>
                 </div>
             </div>
         </div>
-    </div>
     </section>
-    <!-- AKHIR JUMBOTRON -->
-    
-    <!-- CONTENT -->
+    <!-- END JUMBOTRON -->
+
     <!-- ABOUT -->
-    <section class="section-tampil about" id="about">
-    <div class="bg-about">
-        <div class="container">
-            <div class="row">
+    <section class="about d-flex text-center text-white" id="about">
+        <div class="container d-flex justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-sm-12">
                 <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>About Me</strong></font></p>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-sm-12">
                     <h1 class="typo-custom text-center text-white">Fashion is what you're offered four times a year by designers.</h1>
                     <h1 class="typo-custom text-center text-white">And style is what you choose.</h1>
                     <p class="custom-about text-center text-white">I am a Fresh Graduation S1 Computer Science Education University Computer Science Education. A Animator 2D, UI/UX Designer and Web Development with excellent motivations to learned something new alongside with the movement of industry needed. Fast to learn and easy to adapt with new environment. Excellent coordination and communication skills. When I was in education I used to make UI / UX Design and create 2D animation, in carrying out these tasks, I always put creativity first. In every project I make, for example, I try to make a design according to the needs for both internal and external projects by prioritizing creativity and effectiveness. One of the achievements I have had was when I succeeded in making designs and animations with a high enough level of complexity to bring the university's good name to the public. </p>
                 </div>
             </div>
         </div>
-    </div>
+
     </section>
-    <!-- ABOUT -->
+    <!-- END ABOUT -->
 
     <!-- SERVICE -->
-    <section class="section-tampil service" id="service">
-        <div class="bg-service">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>Service</strong></font></p>
-                        <h1 class="text-center text-white display-4">What I Do?</h1>
-                    </div>
+    <section class="service" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>Service</strong></font></p>
+                    <h1 class="text-center text-white font-weight-bold">What I Do?</h1>
                 </div>
+            </div>
 
-                <div class="row justify-content-center" data-aos="fade-right">
-                    <div class="col-sm-4 text-center text-white card-body box-service mt-5 mb-3 mx-2 pt-5 ">
-                        <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-uiux.png" alt="icon-ui">
-                        <h3 class="my-4 font-weight-bold">UI/UX Designer</h2>
-                        <p class="typo-service my-3">User Experience (UX) is the process of designing a product through a user approach. As previously mentioned, the UI is part of the UX which is the visual appearance of a system design. </p>
-                        <a href="https://www.niagahoster.co.id/blog/perbedaan-ui-dan-ux/" target="_blank">
-                            <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-4 text-center text-white card-body box-service mt-5 mb-3 mx-2 pt-5 ">
-                        <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-web.png" alt="icon-web">
-                        <h3 class="my-4 font-weight-bold">Web Designer</h2>
-                        <p class="typo-service my-3">Web design is what creates the overall look and feel of a website, when used by users. This includes the process of planning and creating website elements, from the layout structure, images, colors, to graphics. </p>
-                        <a href="https://www.garuda.website/blog/apa-itu-web-design/" target="_blank">
-                            <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
-                        </a>
-                    </div>                  
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 text-center text-white card-body box-service my-1 mx-2 pt-5 ">
-                        <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-2d.png" alt="icon-2d">
+            <div class="row justify-content-center mt-3">
+                <div class="col-sm-4 text-center text-white card-body box-service mx-3 my-2">
+                    <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-2D.png" alt="icon-2d">
                         <h3 class="my-4 font-weight-bold">Animation 2D</h2>
                         <p class="typo-service my-3">Animation is a process used to digitally produce animated images. The term computer-generated imaging includes both static scenes and dynamic images. </p>
                         <a href="https://tirtamedia.co.id/2020/03/12/mari-mengenal-animasi-2d/" target="_blank">
-                            <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                            <button class="btn-service btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
                         </a>
-                    </div>
+                </div>
+            </div>
 
-                    <div class="col-sm-4 text-center text-white card-body box-service my-1 mx-2 pt-5 ">
-                        <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-app.png" alt="icon-app">
-                        <h3 class="my-4 font-weight-bold">App Designer</h2>
-                        <p class="typo-service my-3">App Designer is an interactive development environment for designing full application layouts and a large set of interactive User Interface components. </p>
-                        <a href="https://dtc.co.id/blog/pentingnya-desain-ui-ux-dalam-pengembangan-aplikasi-seluler" target="_blank">
-                            <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
-                        </a>
-                    </div>
-                    
-                    <div class="col-sm-4 text-center text-white card-body box-service my-1 mx-2 pt-5 ">
-                        <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-motion.png" alt="icon-motion">
-                        <h3 class="my-4 font-weight-bold">Motion Graphic</h2>
-                        <p class="typo-service my-3">Motion graphics are a type of animation that combines text, graphics, color and motion to create visually appealing video content with 2D animation. </p>
-                        <a href="https://www.ekrut.com/media/motion-graphic#:~:text=Motion%20graphic%20adalah%20jenis%20animasi,video%20yang%20menarik%20secara%20visual." target="_blank">
-                            <button class="btn-custom1 btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
-                        </a>
-                    </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-sm-4 text-center text-white card-body box-service mx-3 my-2">
+                    <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-uiux.png" alt="icon-ui">
+                    <h3 class="my-4 font-weight-bold">UI/UX Designer</h2>
+                    <p class="typo-service my-3">User Experience (UX) is the process of designing a product through a user approach. As previously mentioned, the UI is part of the UX which is the visual appearance of a system design. </p>
+                    <a href="https://www.niagahoster.co.id/blog/perbedaan-ui-dan-ux/" target="_blank">
+                        <button class="btn-service btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                    </a>
+                </div>
+
+                <div class="col-sm-4 text-center text-white card-body box-service mx-3 my-2">
+                    <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-web.png" alt="icon-web">
+                    <h3 class="my-4 font-weight-bold">Web Designer</h2>
+                    <p class="typo-service my-3">Web design is what creates the overall look and feel of a website, when used by users. This includes the process of planning and creating website elements, from the layout structure, images, colors, to graphics. </p>
+                    <a href="https://www.garuda.website/blog/apa-itu-web-design/" target="_blank">
+                        <button class="btn-service btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-sm-4 text-center text-white card-body box-service mx-3 my-2">
+                    <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-app.png" alt="icon-app">
+                    <h3 class="my-4 font-weight-bold">App Designer</h2>
+                    <p class="typo-service my-3">App Designer is an interactive development environment for designing full application layouts and a large set of interactive User Interface components. </p>
+                    <a href="https://dtc.co.id/blog/pentingnya-desain-ui-ux-dalam-pengembangan-aplikasi-seluler" target="_blank">
+                        <button class="btn-service btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                    </a>
+                </div>
+
+                <div class="col-sm-4 text-center text-white card-body box-service mx-3 my-2">
+                    <img class="icon-service my-2" src="<?php echo base_url();?>assets/images/icon/icon-motion.png" alt="icon-motion">
+                    <h3 class="my-4 font-weight-bold">Motion Graphic</h2>
+                    <p class="typo-service my-3">Motion graphics are a type of animation that combines text, design graphics, color and motion to create visually appealing video content with 2D animation. </p>
+                    <a href="https://www.ekrut.com/media/motion-graphic#:~:text=Motion%20graphic%20adalah%20jenis%20animasi,video%20yang%20menarik%20secara%20visual." target="_blank">
+                        <button class="btn-service btn-sm" type="button"><i class="fas fa-long-arrow-alt-right mr-3 py-2"></i>Learn More</button>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- AKHIR SERVICE -->
+    <!-- END SERVICE -->
 
-    <!-- PORTFOLIO -->
-    <section class="section-tampil portfolio" id="portfolio">
-    <div class="bg-portfolio">
+    <!-- PORTPOLIO -->
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>Portfolio</strong></font></p>
-                    <h1 class="text-center text-white display-4 pb-4">Creative Works </h1>
+                    <h1 class="text-center text-white font-height-bold pb-3">Creative Works </h1>
                 </div>
             </div>
         
@@ -166,8 +171,9 @@
                         <h4 class="text-black font-weight-bold">Animation 2D</h4>
                         <h4 class="text-black font-weight-bold">Industrial Revolution Waves</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/industri.jpg" alt="industri">
+                        <p>This content was created when I participated in a 2D animation competition, and I won first place.</p>
                         <a href="https://www.youtube.com/watch?v=h3Z0WRlHzjw&t=6s&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" role="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -176,47 +182,25 @@
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">Motion Graphic</h4>
                         <h4 class="text-black font-weight-bold">Muslim Sejati Pemersatu</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/muslim.jpg" alt="muslim">
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/muslim.jpg" alt="industri">
+                        <p>This content was created when I participated in a motion graphics competition.</p>
                         <a href="https://www.youtube.com/watch?v=wiHcvl0nG2k&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
             </div>
             
-            <div class="row justify-content-center">
-                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
-                    <figure class="figure">    
-                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
-                        <h4 class="text-black font-weight-bold">Web Barita</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/web-barita.png" alt="web-barita">
-                        <a href="https://drive.google.com/drive/folders/1UTFS1uuJlzVbX0pofFn5B0EcS89sCd1v?usp=sharing" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
-                        </a>
-                    </figure>
-                </div>
-
-                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
-                    <figure class="figure">    
-                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
-                        <h4 class="text-black font-weight-bold">App Barita</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/app-barita.png" alt="app-barita">
-                        <a href="https://drive.google.com/drive/folders/1mP2VGuhqtrqzqb4C0ib-zXUGdh8Mb6r8?usp=sharing" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
-                        </a>
-                    </figure>
-                </div>
-            </div>
 
             <div class="row">
                 <div class="col text-center">
                     <a href="<?php echo base_url() .'index.php/C_home/V_portfolio';?>">
-                        <button class="btn-custom1 btn-lg mt-3" type="button">Show All</button>
+                        <button class="btn-service btn-lg mt-3" type="button">Show All</button>
                     </a>
                 </div>
             </div>
 
-            <p class="text-center text-white my-4 mx-5 px-5">All the creative work listed is of course made using personal abilities and professional software, the following are personal abilities and the software that I use.</p>
+            <p class="text-center text-white mt-3 mx-5">All the creative work listed is of course made using personal abilities and professional software, the following are personal abilities and the software that I use.</p>
 
             <div class="row justify-content-center">
                 <div class="col-sm-2 text-center">
@@ -303,46 +287,42 @@
             </div>
 
         </div>
-    </div>
     </section>
-    <!-- AKHIR PORTFOLIO -->
+    <!-- END PORTPOLIO -->
     
     <!-- CONTACT -->
-    <section class="section-tampil contact" id="contact">
-        <div class="bg-contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>Contact</strong></font></p>
-                        <h1 class="text-center text-white display-4 pb-4">Call Me Now </h1>
-                    </div>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center mt-5 pt-4"><font color = "#FF6666" size="5px" > <strong>Contact</strong></font></p>
+                    <h1 class="text-center text-white display-4 pb-4">Call Me Now </h1>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-2">
+                <div class="col-sm-3 text-center my-1">
+                    <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-phone.png" alt="icon-phone">
+                    <h6 class="text-white font-weight-bold mt-3">Phone Number</h6>
+                    <h6 class="text-white font-weight-bold mt-2">+62-822-1648-4272</h6>
+                </div>
+                    
+                <div class="col-sm-3 text-center my-1">
+                    <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-email.png" alt="icon-email">
+                    <h6 class="text-white font-weight-bold mt-3">E-mail</h6>
+                    <h6 class="text-white font-weight-bold mt-2">Mfaisal5597@gmail.com</h6>
                 </div>
 
-                <div class="row justify-content-center mt-2">
-                    <div class="col-sm-3 text-center my-1">
-                        <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-phone.png" alt="icon-phone">
-                        <h6 class="text-white font-weight-bold mt-3">Phone Number</h6>
-                        <h6 class="text-white font-weight-bold mt-2">+62-822-1648-4272</h6>
-                    </div>
-                    
-                    <div class="col-sm-3 text-center my-1">
-                        <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-email.png" alt="icon-email">
-                        <h6 class="text-white font-weight-bold mt-3">E-mail</h6>
-                        <h6 class="text-white font-weight-bold mt-2">Mfaisal5597@gmail.com</h6>
-                    </div>
-
-                    <div class="col-sm-3 text-center my-1">
-                        <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-location.png" alt="icon-location">
-                        <h6 class="text-white font-weight-bold mt-3">Get Me Here</h6>
-                        <h6 class="text-white font-weight-bold mt-2">Cisarua, Bandung</h6>
-                    </div>
-                    
-                </div>    
-            </div>
+                <div class="col-sm-3 text-center my-1">
+                    <img class="icon-contact" src="<?php echo base_url()?>assets/images/icon/icon-location.png" alt="icon-location">
+                    <h6 class="text-white font-weight-bold mt-3">Get Me Here</h6>
+                    <h6 class="text-white font-weight-bold mt-2">Cisarua, Bandung</h6>
+                </div>   
+            </div>    
         </div>
     </section>
-    <!-- AKHIR CONTACT -->
-
+    <!-- END CONTACT -->
+    
     <!-- FOOTER -->
     <section class="section-tampil footer" id="footer">
         <div class="bg-footer">
@@ -351,22 +331,22 @@
             </div>
         </div>
     </section>
-    <!-- AKHIR FOOTER -->
+    <!-- END FOOTER -->
 
-    <a class="btn-gotop" href="#jumbotron"><i class="fas fa-arrow-up"></i></a>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript">
+        $(window).on("scroll", function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
 
-    <!-- AKHIR CONTENT -->
-
-    <!-- Optional JavaScript; choose one of the two! -->
-    
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

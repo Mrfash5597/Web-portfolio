@@ -25,14 +25,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="text-center text-white display-4 my-5">My Portfolio</h1>
+                    <h1 class="text-center text-white font-weight-bold display-4 my-5">My Portfolio</h1>
                 </div>
             </div>
 
             <div class="row ml-1">
                 <div class="col-sm-12">
                     <a href="<?php echo base_url(). 'index.php/C_home';?>">
-                        <button class="btn-custom1 btn-sm font-weight-bold ml-5 px-2" type="button"><i class="fas fa-home mr-2"></i>Back</button>
+                        <button class="btn-service btn-sm font-weight-bold ml-5 px-2" type="button"><i class="fas fa-home mr-2"></i>Back</button>
                     </a>
                 </div>
             </div>
@@ -43,8 +43,9 @@
                         <h4 class="text-black font-weight-bold">Animation 2D</h4>
                         <h4 class="text-black font-weight-bold">Industrial Revolution Waves</h4>
                         <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/industri.jpg" alt="industri">
+                        <p>This content was created when I participated in a 2D animation competition in 2018, and I won first place.</p>
                         <a href="https://www.youtube.com/watch?v=h3Z0WRlHzjw&t=6s&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" role="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -53,9 +54,10 @@
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">Motion Graphic</h4>
                         <h4 class="text-black font-weight-bold">Muslim Sejati Pemersatu</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/muslim.jpg" alt="muslim">
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/muslim.jpg" alt="industri">
+                        <p>This content was created when I participated in a motion graphics competition in 2018.</p>
                         <a href="https://www.youtube.com/watch?v=wiHcvl0nG2k&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -65,10 +67,11 @@
                 <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">UI/UX Design</h4>
-                        <h4 class="text-black font-weight-bold">Web Barita</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/web-barita.png" alt="web-barita">
+                        <h4 class="text-black font-weight-bold">Website Barita</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/web-barita.png" alt="industri">
+                        <p>This content was created while participating in a UI / UX designer competition in 2018.</p>
                         <a href="https://drive.google.com/drive/folders/1UTFS1uuJlzVbX0pofFn5B0EcS89sCd1v?usp=sharing" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -77,9 +80,10 @@
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">UI/UX Design</h4>
                         <h4 class="text-black font-weight-bold">App Barita</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/app-barita.png" alt="app-barita">
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/app-barita.png" alt="industri">
+                        <p>This content was created while participating in a UI / UX designer competition in 2018.</p>
                         <a href="https://drive.google.com/drive/folders/1mP2VGuhqtrqzqb4C0ib-zXUGdh8Mb6r8?usp=sharing" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -90,9 +94,10 @@
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">Motion Graphic</h4>
                         <h4 class="text-black font-weight-bold">Promotion App Talento</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/animation-talento.jpg" alt="app-talento">
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/animation-talento.jpg" alt="industri">
+                        <p>This content was created while participating in a UI / UX designer competition in 2018.</p>
                         <a href="https://www.youtube.com/watch?v=yEhcAyNrkvI&t=20s&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -101,22 +106,24 @@
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">Motion Graphic</h4>
                         <h4 class="text-black font-weight-bold">Promotion App Barita</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/animation-barita.jpg" alt="app-barita">
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/animation-barita.jpg" alt="industri">
+                        <p>This content was created while participating in a UI / UX designer competition in 2018.</p>
                         <a href="https://www.youtube.com/watch?v=rt5IzQ6Oea8&t=13s&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
             </div>
-            
+
             <div class="row justify-content-center">
                 <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">Motion Graphic</h4>
                         <h4 class="text-black font-weight-bold">Public Service Advertisement Hoax</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/iklan-layanan-masyarakat.jpg" alt="hoax">
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/iklan-layanan-masyarakat.jpg" alt="industri">
+                        <p>This content was created when I participated in a 2D animation competition in 2018, and I won first place.</p>
                         <a href="https://www.youtube.com/watch?v=bH-Spw2zT_A&ab_channel=MuhamadFaisal" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>
@@ -124,10 +131,37 @@
                 <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
                     <figure class="figure">    
                         <h4 class="text-black font-weight-bold">UI/UX Design</h4>
-                        <h4 class="text-black font-weight-bold">Project Web Portfolio</h4>
-                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/thumnail-portfolio.jpg" alt="web-portpolio">
-                        <a href="https://drive.google.com/drive/folders/1i4KXSrHDb1wfuUQpSoog4YrBlyoih1fU?usp=sharing" target="_blank">
-                            <button class="btn-custom2 btn-sm mt-3 px-3 py-2" type="button">See More</button>
+                        <h4 class="text-black font-weight-bold">Project Website Portfolio</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/thumnail-portfolio.jpg" alt="industri">
+                        <p>This content was created in 2020, this content is a web UI / UX prototype project that will be realized.</p>
+                        <a href="https://www.youtube.com/watch?v=rt5IzQ6Oea8&t=13s&ab_channel=MuhamadFaisal" target="_blank">
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
+                    <figure class="figure">    
+                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
+                        <h4 class="text-black font-weight-bold">Prototype Website VN</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/ui-web-wn.jpg" alt="industri">
+                        <p>The content was created in 2020, when I was selected to enter Agate Internasional.</p>
+                        <a href="https://drive.google.com/drive/folders/1NrbrUCNKCzFvMwlIecQ0NdkU4rKJ9o_l?usp=sharing" target="_blank">
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
+                        </a>
+                    </figure>
+                </div>
+
+                <div class="col-sm-5 text-center text-black card-body box-portfolio my-4 mx-3">
+                    <figure class="figure">    
+                        <h4 class="text-black font-weight-bold">UI/UX Design</h4>
+                        <h4 class="text-black font-weight-bold">Project My Website Portfolio</h4>
+                        <img class="figure-img img-fluid rounded img-portfolio mx-2" src="<?php echo base_url()?>assets/images/ui-port-urang.jpg" alt="industri">
+                        <p>the content was created in 2020 to be turned into a website and to accommodate all the portfolios that I have.</p>
+                        <a href="https://drive.google.com/drive/folders/1ywxn1SQACCCfLlS2zRYlwxqtbnH4_-F-?usp=sharing" target="_blank">
+                            <button class="btn-portfolio btn-sm mt-1 px-3 py-2" role="button">See More</button>
                         </a>
                     </figure>
                 </div>

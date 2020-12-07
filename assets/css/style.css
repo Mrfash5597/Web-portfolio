@@ -2,123 +2,87 @@ html{
     scroll-behavior: smooth;
 }
 
+nav.black{
+    background: #1F1F1F;
+}
+
 /* NAVBAR */
-
-.navbar{
-    margin-top: -30px;
-}
-
-.navbar-nav{
-    color: white;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .logo{
     height: 50px;
 }
 
-/* JUMBOTRON */
-.sec-jumbotron{
-    height: 100vh;
+.nav-item{
+    background: #1F1F1F;
 }
-.cos-jumbotron{
+
+/* JUMBOTRON */
+.jumbotron{
+    position: relative;
     background-image: url('../images/jumbotron.png');
     background-size: cover;
-    height: 100vh;
-}
-
-.content-jumbotron{
-    text-align: center;
-    color: white;
-    margin: 20px;
-}
-
-.display-4{
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 43px;
-}
-
-.lead{
-    font-size: 18px;
-}
-
-.btn-gotop{
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.274);
-    bottom: 20px;
-    right: 40px;
-
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-    color: black;
-    font-size: 22px;
+    min-height: 100vh;
+    background-position: center;
 }
 
 .btn-custom1{
     color: #ffffff; 
     background-color: #FF6666; 
-    border-color: #FF6666; 
+    border: none;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
 }
 
 .btn-custom1:hover{
     color: #ffffff; 
     background-color: #ff8a8a; 
-    border-color: #ff8a8a; 
+    border: none;
 }
 
 .btn-custom2{
     color: #ffffff; 
     background-color: #1DB6F2; 
-    border-color: #1DB6F2;
+    border: none;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
 }
 
 .btn-custom2:hover{
     color: #ffffff; 
     background-color: #61c6ee; 
-    border-color: #61c6ee; 
+    border: none; 
 }
 
 /* ABOUT */
-.bg-about{
+.about{
+    position: relative;
     background-image: url('../images/bg-about.png');
     background-size: cover;
-    height: 1050px;
-}
-
-.typo-custom{
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.custom-about{
-    font-size: 16px;
-    margin-top: 60px;
-    margin-left: 100px;
-    margin-right: 100px;
+    min-height: 50vh;
+    background-position: center;
+    margin-top: -35px;
+    padding-top: 15px;
+    padding-bottom: 120px;
 }
 
 /* SERVICE */
-
-.bg-service{
+.service{
+    position: relative;
     background-image: url('../images/bg-service.png');
     background-size: cover;
-    height: 2500px;
+    min-height: 100vh;
+    background-position: center;
+    margin-top: -35px;
+    padding: 50px;
 }
 
 .box-service{
     background-color: #161616;
-    height: 410px;
-    width: 300px;
     box-shadow: 5px 5px 5px #00000070;
     border-right: 10px solid #1DB6F2;
     border-bottom: 10px solid #1DB6F2;
-    margin-left: 20px;
+    padding: 20px;
 }
 
 .typo-service{
@@ -129,30 +93,52 @@ html{
     height: 75px;
 }
 
-/* PORTFOLIO */
-.bg-portfolio{
-    background-image: url('../images/bg-portfolio.png');
-    background-size: cover;
-    height: 3400px;
+.btn-service{
+    color: #ffffff; 
+    background-color: #FF6666; 
+    border: none;
 }
 
-.bg-page-portfolio{
-    background-image: url('../images/bg-page-portfolio.png');
+.btn-service:hover{
+    color: #ffffff; 
+    background-color: #ff8a8a; 
+    border:none;
+}
+
+/* PORTFOLIO */
+.portfolio{
+    position: relative;
+    background-image: url('../images/bg-portfolio.png');
     background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    margin-top: -35px;
+    padding: 50px;
 }
 
 .box-portfolio{
     background-color: white;
-    height: 490px;
-    width: 250px;
     box-shadow: 5px 5px 5px #00000070;
     border-right: 10px solid #FF6666;
     border-bottom: 10px solid #FF6666;
-    margin-left: 20px;
 }
 
 .img-portfolio{
     height: 300px;
+}
+
+.btn-portfolio{
+    color: #ffffff; 
+    background-color: #1DB6F2;
+    width: 100px; 
+    border: none;
+    font-weight: bold;
+}
+
+.btn-portfolio:hover{
+    color: #ffffff; 
+    background-color: #61c6ee; 
+    border:none;
 }
 
 .btn-custom3{
@@ -169,12 +155,30 @@ html{
     border-color: #c7c7c7; 
 }
 
-/* CONTACT */
+.btn-gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.274);
+    bottom: 40px;
+    right: 40px;
 
-.bg-contact{
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 22px;
+}
+
+/* CONTACT */
+.contact{
+    position: relative;
     background-image: url('../images/bg-contact.png');
     background-size: cover;
-    height: 600px;
+    min-height: 50vh;
+    background-position: center;
+    margin-top: -35px;
+    padding: 50px;
 }
 
 .icon-contact{
@@ -191,72 +195,9 @@ html{
 /* DESKROP VERSION */
 
 @media (min-width: 992px) {
-    .nav-link{
+    .nav-item{
         text-transform: uppercase;
-        margin-right: 40px;
-    }
-
-    .navbar{
-        margin-top: -50px;
-    }
-
-    .cos-jumbotron{
-        height: 100vh;
-        width: 100%;
-    }
-
-    .content-jumbotron{
-        margin: 50px;
-    }
-
-    .btn-gotop{
-        position: fixed;
-        width: 50px;
-        height: 50px;
-        background: rgba(255, 255, 255, 0.274);
-        bottom: 40px;
-        right: 40px;
-    
-        text-decoration: none;
-        text-align: center;
-        line-height: 50px;
-        color: black;
-        font-size: 22px;
-    }
-
-    .box-portfolio{
-        background-color: white;
-        height: 490px;
-        width: 250px;
-        box-shadow: 5px 5px 5px #00000070;
-        border-right: 10px solid #FF6666;
-        border-bottom: 10px solid #FF6666;
-        margin-left: 20px;
-    }
-
-    .bg-about{
-        height: 100vh;
-        width: 100%;
-    }
-
-    .bg-service{
-        height: 1150px;
-        width: 100%;
-    }
-
-    .bg-portfolio{
-        height: 1650px;
-        width: 100%;
-    }
-
-    .bg-page-portfolio{
-        height: 2400px;
-        width: 100%;
-    }
-
-    .bg-contact{
-        height: 400px;
-        width: 100%;
+        background: transparent;
     }
 
 }
